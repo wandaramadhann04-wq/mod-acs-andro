@@ -1,0 +1,54 @@
+<List>
+    <RecipeDef>
+        <defName>Make_SkaySpiritBlock_Pure</defName>
+        <label>Pahat Bata Roh Murni</label>
+        <description>Mengubah Spirit Stone menjadi bahan bangunan murni berkualitas tinggi.</description>
+        <workAmount>200</workAmount>
+        <ingredients>
+            <li>
+                <filter><thingDefs><li>Item_LingStone</li></thingDefs></filter>
+                <count>5</count> </li>
+        </ingredients>
+        <products>
+            <Item_SkaySpiritBlock_Pure>5</Item_SkaySpiritBlock_Pure> </products>
+        <recipeUsers>
+            <li>TableStoneWork</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>Make_SkaySpiritBlock_Fire</defName>
+        <label>Tempa Bata Roh Bara</label>
+        <description>Mengompresi Spirit Stone menjadi bata spiritual berelemen Api.</description>
+        <workAmount>300</workAmount>
+        <ingredients>
+            <li>
+                <filter><thingDefs><li>Item_LingStone</li></thingDefs></filter>
+                <count>5</count> </li>
+        </ingredients>
+        <products>
+            <Item_SkaySpiritBlock_Fire>5</Item_SkaySpiritBlock_Fire>
+        </products>
+        <recipeUsers>
+            <li>TableStoneWork</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>Make_SkaySpiritBlock_Water</defName>
+        <label>Bekukan Bata Roh Es</label>
+        <description>Mengompresi Spirit Stone menjadi bata spiritual berelemen Air.</description>
+        <workAmount>300</workAmount>
+        <ingredients>
+            <li>
+                <filter><thingDefs><li>Item_LingStone</li></thingDefs></filter>
+                <count>5</count> </li>
+        </ingredients>
+        <products>
+            <Item_SkaySpiritBlock_Water>5</Item_SkaySpiritBlock_Water>
+        </products>
+        <recipeUsers>
+            <li>TableStoneWork</li>
+        </recipeUsers>
+    </RecipeDef>
+</List>
