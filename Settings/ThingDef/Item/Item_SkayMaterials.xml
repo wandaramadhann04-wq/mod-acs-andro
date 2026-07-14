@@ -1,0 +1,37 @@
+<List>
+    <ThingDef ParentName="ItemBase">
+        <defName>Item_SkaySpiritBlock_Pure</defName>
+        <ThingClass>Item</ThingClass>
+        <ThingName>Skay Pure Spirit Brick</ThingName>
+        <label>Bata Roh Murni</label>
+        <description>Bata yang terbuat dari kompresi murni Spirit Stone. Sangat indah, netral, dan memancarkan energi Qi yang masif.</description>
+        <MaxStack>500</MaxStack>
+        <Beauty>50</Beauty>
+        <Rate>9</Rate>
+        <Kind>None</Kind> <BaseMarketValue>20</BaseMarketValue>
+    </ThingDef>
+
+    <ThingDef ParentName="ItemBase">
+        <defName>Item_SkaySpiritBlock_Fire</defName>
+        <ThingClass>Item</ThingClass>
+        <ThingName>Skay Fire Spirit Brick</ThingName>
+        <label>Bata Roh Bara</label>
+        <description>Bata Roh yang ditempa dengan energi spiritual api. Sangat cocok untuk membangun ruangan kultivasi elemen Tanah/Api atau menghangatkan ruangan di musim dingin.</description>
+        <MaxStack>500</MaxStack>
+        <Beauty>35</Beauty>
+        <Rate>8</Rate>
+        <Kind>Huo</Kind> <BaseMarketValue>25</BaseMarketValue>
+    </ThingDef>
+
+    <ThingDef ParentName="ItemBase">
+        <defName>Item_SkaySpiritBlock_Water</defName>
+        <ThingClass>Item</ThingClass>
+        <ThingName>Skay Ice Spirit Brick</ThingName>
+        <label>Bata Roh Es</label>
+        <description>Bata Roh yang dibekukan dengan energi spiritual air. Sangat cocok untuk ruangan kultivasi elemen Kayu/Air atau mendinginkan ruangan di musim panas yang ekstrem.</description>
+        <MaxStack>500</MaxStack>
+        <Beauty>35</Beauty>
+        <Rate>8</Rate>
+        <Kind>Shui</Kind> <BaseMarketValue>25</BaseMarketValue>
+    </ThingDef>
+</List>
